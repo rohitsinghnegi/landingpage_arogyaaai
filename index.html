@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Arogya AI - Healthcare Reimagined</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@300;400;600;800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./src/style.css">
+</head>
+
+<body>
+  <div id="app">
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="logo">AROGYA<span class="highlight">AI</span></div>
+      <div class="nav-links">
+        <a href="#features">Features</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <button class="btn-primary">GET STARTED</button>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-content">
+        <h1 class="glitch-text" data-text="HEALTHCARE">HEALTHCARE</h1>
+        <h1 class="outline-text">REIMAGINED</h1>
+        <p class="hero-sub">OFFLINE-FIRST. AI-POWERED. YOUR HEALTH, UNLEASHED.</p>
+        <div class="cta-group">
+          <button class="btn-primary large">DOWNLOAD APP</button>
+          <button class="btn-secondary">WATCH DEMO</button>
+        </div>
+      </div>
+      <div class="hero-visuals">
+        <img src="/assets/heart_3d.png" alt="3D Heart" class="floating-element heart">
+        <img src="/assets/dna_3d.png" alt="3D DNA" class="floating-element dna">
+        <img src="/assets/pills_3d.png" alt="3D Pills" class="floating-element pills">
+      </div>
+    </section>
+
+    <!-- Marquee -->
+    <div class="marquee-container">
+      <div class="marquee-content">
+        <span>SCAN REPORTS • VITALS MONITORING • MRI ANALYSIS • NUTRITION AI • OFFLINE FIRST • </span>
+        <span>SCAN REPORTS • VITALS MONITORING • MRI ANALYSIS • NUTRITION AI • OFFLINE FIRST • </span>
+      </div>
+    </div>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+      <h2 class="section-title">POWERFUL <span class="highlight">FEATURES</span></h2>
+      <div class="cards-grid">
+        <div class="card card-1">
+          <div class="card-icon">📄</div>
+          <h3>SCAN REPORTS</h3>
+          <p>Instant analysis of blood work and lab reports using on-device AI.</p>
+          <img src="/assets/sticker_report.png" class="sticker" onerror="this.style.display='none'">
+        </div>
+        <div class="card card-2">
+          <div class="card-icon">🧠</div>
+          <h3>MRI ANALYSIS</h3>
+          <p>Advanced computer vision to detect anomalies in MRI scans instantly.</p>
+          <img src="/assets/mri_scan.png" class="sticker mri-sticker">
+        </div>
+        <div class="card card-3">
+          <div class="card-icon">❤️</div>
+          <h3>VITALS TRACKING</h3>
+          <p>Real-time monitoring of heart rate, BP, and more with historical trends.</p>
+        </div>
+        <div class="card card-4">
+          <div class="card-icon">🥗</div>
+          <h3>NUTRITION AI</h3>
+          <p>Personalized diet plans based on your health data and goals.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+      <h2 class="section-title">TRUSTED BY <span class="highlight">DOCTORS</span></h2>
+      <div class="testimonial-grid">
+        <div class="testi-card yellow">
+          <p>"Arogya AI has completely transformed how I manage patient records. The offline capability is a lifesaver
+            in remote areas!"</p>
+          <div class="user-info">
+            <div class="avatar">👨‍⚕️</div>
+            <div>
+              <h4>Dr. Sharma</h4>
+              <span>Cardiologist</span>
+            </div>
+          </div>
+        </div>
+        <div class="testi-card blue">
+          <p>"The MRI analysis feature is incredibly accurate. It helps me triage patients faster and with more
+            confidence."</p>
+          <div class="user-info">
+            <div class="avatar">👩‍⚕️</div>
+            <div>
+              <h4>Dr. Patel</h4>
+              <span>Neurologist</span>
+            </div>
+          </div>
+        </div>
+        <div class="testi-card pink">
+          <p>"Finally, an app that puts patient data first. The privacy features and on-device processing are exactly
+            what we needed."</p>
+          <div class="user-info">
+            <div class="avatar">👨‍⚕️</div>
+            <div>
+              <h4>Dr. Singh</h4>
+              <span>General Practitioner</span>
+            </div>
+          </div>
+        </div>
+        <div class="testi-card red">
+          <p>"The nutrition AI is spot on. My patients are actually following their diet plans now because they are so
+            personalized."</p>
+          <div class="user-info">
+            <div class="avatar">👩‍⚕️</div>
+            <div>
+              <h4>Dr. Gupta</h4>
+              <span>Nutritionist</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-content">
+        <div class="footer-logo">AROGYA AI</div>
+        <p>© 2025 Arogya AI. All rights reserved.</p>
+      </div>
+    </footer>
+  </div>
+  <script type="module" src="./src/main.js"></script>
+</body>
+
+</html>
